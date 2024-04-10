@@ -62,7 +62,11 @@
         
 }
 @media (max-width:750px) {
-   
+
+
+   .headerImg{
+    max-width: 100%;
+   }
 
     .headerContent {
         max-width: 65%;
