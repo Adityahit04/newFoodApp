@@ -8,7 +8,7 @@ import { StoreContext } from '../Context/StoreContext';
 
 
 function Navbar({ setShowLogin }) {
-  const [menu, setmenu] = useState("menu");
+  const [menu, setmenu] = useState("home");
   const {cartTotal}=useContext(StoreContext)
   return (
     <>
